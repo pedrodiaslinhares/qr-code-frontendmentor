@@ -1,0 +1,61 @@
+/* ## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+## Colors
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+## Typography
+### Body Copy
+- Font size (paragraph): 15px
+### Font
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+:root {
+    --cor1: hsl(0, 0%, 100%);
+    --cor2: hsl(212, 45%, 89%);
+    --cor3: hsl(220, 15%, 55%);
+    --cor4: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: rgb(181, 222, 238);
+    text-align: center;
+}
+p {
+    padding: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    background-color: var(--cor1);
+    display: grid;
+    margin: 5% auto;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.qr-code {
+    height: auto;
+    width: 300px;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.texto {
+    color: var(--cor4);
+    font-size: 20px;
+}
+
+.subtexto {
+    color: var(--cor3);
+    font-size: 15px;
+}
+
